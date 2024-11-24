@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.ico">
+    <title>Zydex</title>
+</head>
+<body>
+    <header class="header">
+        <h1>ZYDEX</h1>
+        <nav class="nav-bar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-toggle" aria-label="Toggle menu">
+            ☰
+        </button>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home_left">
+            <h4>HI THERE,</h4>
+            <h1>I  Am Zydex </h1>
+            <p>I Am a Front End Developer With 1 Year of Experience, <br>
+                I Have A Simple and One objectif : Create Creative And Stunning Web-sites.<br>
+                Just For Info, I am not just a web developer !
+            </p>
+            <button><a href="#about">Hire me</a></button>
+        </div>
+
+        <div class="home_right">
+            <img src="Multitasker.png" alt="home_img">
+        </div>
+    </section>
+
+
+
+
+    <section id="about" class="about">
+        <h1 class="about_h1">About</h1>
+        <img src="logo.ico" alt="">
+        <p>Zydex</p>
+        <h2>Front End Developer</h2>
+        <div class="about_div">
+        <div>
+            <p class="about_p">I am a Front end web-sites developer, from <span>Morroco, </span>I can speak 3 languages  : 
+            <span>English, </span>
+            <span>French </span>
+            and 
+            <span> Arabaic, </span>
+            I am passionate about all things that have relation about computer sciences, like you saw in my services,
+            that what i am able to do for now, i started this dommaine about 2 years ago, i am exciting to keep practicing
+            to improuve my skills.
+            </p>
+        </div>
+        </div>
+    </section>
+
+    
+
+
+    <section id="portfolio" class="portfolio">
+        <h1>My <span>Portfolio</span></h1>
+        <nav class="portfolio_nav">
+            <button id="btn_portfolio"><a href="#portfolio">All</a></button>
+            <button id="btn_personnal"><a href="#personnal">Personnal</a></button>
+            <button id="btn_backgrounds"><a href="#backgrounds">Backgrouds</a></button>
+            <button id="btn_creations"><a href="#creations">Creations</a></button>
+        </nav>
+
+        <div id="personnal" class="portfolio_top">
+            <div><img src="personnal1.png" alt="^personnal1"></div>
+            <div><img src="personnal2.png" alt="personnal2"></div>
+        </div>
+
+        <div id="backgrounds" class="portfolio_mid">
+            <div class="portfolio_mid_div1"></div>
+            <div class="portfolio_mid_div2"></div>
+        </div>
+
+        <div id="creations" class="portfolio_bottom">
+            <div class="portfolio_bottom_div1"></div>
+            <div class="portfolio_bottom_div2"></div>
+            <div class="portfolio_bottom_div3"></div>
+        </div>
+
+    </section>
+
+
+
+    <section id="services" class="services">
+        <h1>My <span>Services</span></h1>
+        <div class="services_top">
+            <div class="services_top_div1"></div>
+            <div class="services_top_div2"></div>
+            <div class="services_top_div3"></div>
+        </div>
+        
+
+        <div class="services_bottom">
+            <div class="services_bottom_div1"></div>
+            <div class="services_bottom_div2"></div>
+            <div class="services_bottom_div3"></div>
+        </div>
+    </section>
+
+
+
+
+
+        <section id="contact" class="contact">
+            <h1>Contact </h1>
+            <div id="CONTACT" class="container">
+                <form action="/submit_form" method="post">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required><br>
+                    
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required><br>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea><br>
+        
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+
+
+        <script src="script.js"></script>
+</body>
+</html>
