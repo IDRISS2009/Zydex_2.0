@@ -1,141 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="logo.ico">
-    <title>Zydex</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Digital-M</title>
 </head>
 <body>
-    <header class="header">
-        <h1>ZYDEX</h1>
-        <nav class="nav-bar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-        </nav>
 
-        <button class="menu-toggle" aria-label="Toggle menu">
-            ☰
-        </button>
-    </header>
-
-    <section id="home" class="home">
-        <div class="home_left">
-            <h4>HI THERE,</h4>
-            <h1>I  Am Zydex </h1>
-            <p>I Am a Front End Developer With 1 Year of Experience, <br>
-                I Have A Simple and One objectif : Create Creative And Stunning Web-sites.<br>
-                Just For Info, I am not just a web developer !
-            </p>
-            <button><a href="#about">Hire me</a></button>
-        </div>
-
-        <div class="home_right">
-            <img src="Multitasker.png" alt="home_img">
-        </div>
-    </section>
-
-
-
-
-    <section id="about" class="about">
-        <h1 class="about_h1">About</h1>
-        <img src="logo.ico" alt="">
-        <p>Zydex</p>
-        <h2>Front End Developer</h2>
-        <div class="about_div">
-        <div>
-            <p class="about_p">I am a Front end web-sites developer, from <span>Morroco, </span>I can speak 3 languages  : 
-            <span>English, </span>
-            <span>French </span>
-            and 
-            <span> Arabaic, </span>
-            I am passionate about all things that have relation about computer sciences, like you saw in my services,
-            that what i am able to do for now, i started this dommaine about 2 years ago, i am exciting to keep practicing
-            to improuve my skills.
-            </p>
-        </div>
-        </div>
-    </section>
-
-    
-
-
-    <section id="portfolio" class="portfolio">
-        <h1>My <span>Portfolio</span></h1>
-        <nav class="portfolio_nav">
-            <button id="btn_portfolio"><a href="#portfolio">All</a></button>
-            <button id="btn_personnal"><a href="#personnal">Personnal</a></button>
-            <button id="btn_backgrounds"><a href="#backgrounds">Backgrouds</a></button>
-            <button id="btn_creations"><a href="#creations">Creations</a></button>
-        </nav>
-
-        <div id="personnal" class="portfolio_top">
-            <div><img src="personnal1.png" alt="^personnal1"></div>
-            <div><img src="personnal2.png" alt="personnal2"></div>
-        </div>
-
-        <div id="backgrounds" class="portfolio_mid">
-            <div class="portfolio_mid_div1"></div>
-            <div class="portfolio_mid_div2"></div>
-        </div>
-
-        <div id="creations" class="portfolio_bottom">
-            <div class="portfolio_bottom_div1"></div>
-            <div class="portfolio_bottom_div2"></div>
-            <div class="portfolio_bottom_div3"></div>
-        </div>
-
-    </section>
-
-
-
-    <section id="services" class="services">
-        <h1>My <span>Services</span></h1>
-        <div class="services_top">
-            <div class="services_top_div1"></div>
-            <div class="services_top_div2"></div>
-            <div class="services_top_div3"></div>
-        </div>
         
+  <nav class="navbar" id="navbar">
+    <div class="logo">LOGO</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="cta">
+        <button class="talk-btn">Let's Talk <span class="arrow">↑</span></button>
+    </div>
+    <div class="burger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+</nav>
+<div class="mobile-menu">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
 
-        <div class="services_bottom">
-            <div class="services_bottom_div1"></div>
-            <div class="services_bottom_div2"></div>
-            <div class="services_bottom_div3"></div>
-        </div>
-    </section>
-
-
-
-
-
-        <section id="contact" class="contact">
-            <h1>Contact </h1>
-            <div id="CONTACT" class="container">
-                <form action="/submit_form" method="post">
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName" name="firstName" required><br>
-                    
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="lastName" required><br>
-            
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required><br>
-        
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea><br>
-        
-                    <input type="submit" value="Submit">
-                </form>
+  <div class="parent">
+    <div class="div1">
+        <img src="me.gif" alt="Profile Picture">
+            <h1>Digital-M 👋</h1>
+            <p>A <span>Passionate Full Stack Developer</span> 🖥️ & Product Designer having <span>12 years of Experiences</span> over 24+ Country <span>Worldwide.</span></p>
+            <div class="button-group">
+                <a class="btn-primary" href="#">📞 Book a call</a>
+                <a class="btn-secondary" href="#">📧 Copy email</a>
             </div>
-        </section>
+    </div>
 
 
-        <script src="script.js"></script>
+
+    <div class="div2">
+        <div class="div2-header"><h2>Work Experience</h2></div>
+        <div class="work-list">
+            <div class="work-item"><img src="adobe.svg" alt="Site Icon"> <div><strong>Adobe</strong><br>2024-2025</div></div>
+            <div class="work-item"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Site Icon"> <div><strong>Google</strong><br>2024-2025</div></div>
+            <div class="work-item"><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png" alt="Site Icon"> <div><strong>Google translator</strong><br>2024-2025</div></div>
+            <div class="work-item"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="Site Icon"> <div><strong>Visual Studio Code</strong><br>2024-2025</div></div>
+            <div class="work-item"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg" alt="Site Icon"> <div><strong>Notion</strong><br>2024-2025</div></div>
+        </div>
+    </div>
+
+
+
+    <div class="div3">
+        <h2>My Expert Area</h2>
+        <div class="expert-icons">
+            <div class="expert-item"><img src="behance.svg" alt="Skill 1"><span>Skill 1</span></div>
+            <div class="expert-item"><img src="figma.svg" alt="Skill 2"><span>Skill 2</span></div>
+            <div class="expert-item"><img src="framer.svg" alt="Skill 3"><span>Skill 3</span></div>
+            <div class="expert-item"><img src="mico.svg" alt="Skill 4"><span>Skill 4</span></div>
+            <div class="expert-item"><img src="webflow.svg" alt="Skill 5"><span>Skill 5</span></div>
+            <div class="expert-item"><img src="zeplin.svg" alt="Skill 6"><span>Skill 6</span></div>
+        </div>
+    </div>
+
+
+    <div class="div4">
+        <div class="div4">
+            <div class="div4-header">
+                <h2>Recent Projects</h2>
+                <a href="#" class="all-projects">All projects →</a>
+            </div>
+            <div class="project-image">
+                <img src="project-1.png" alt="Project">
+                <div class="project-tag">Product Design</div>
+                <div class="view-button" onclick="openModal()">+</div>
+            </div>
+
+            <div class="project-image">
+                <img src="project-2.png" alt="Project">
+                <div class="project-tag">Product Design</div>
+                <div class="view-button" onclick="openModal()">+</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="div5">
+        <div class="div5-header">
+            <h2>Services I Offered</h2>
+            <a href="#" class="see-all">See All Projects</a>
+        </div>
+        <div class="services">
+            <div class="service-item">
+                <img src="web-development.svg" alt="Service 1">
+                <span>Web Development</span>
+            </div>
+            <div class="service-item">
+                <img src="app.svg" alt="Service 2">
+                <span>Graphic Design</span>
+            </div>
+            <div class="service-item">
+                <img src="branding.svg" alt="Service 3">
+                <span>SEO Optimization</span>
+            </div>
+            <div class="service-item">
+                <img src="ui-ux.svg" alt="Service 4">
+                <span>Video Editing</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="div6">
+            <div class="marquee">
+                <div class="marquee-content">Available For Hire 🚀 Crafting Digital Experiences 🎨 Available For Hire 🚀 Crafting Digital Experiences 🎨</div>
+            </div>
+            <h1>Let's👋 Work Together</h1>
+            <a href="#">Let's talk ↗</a>
+    </div>
+</div>
+  
+
+
+<script src="script.js"></script>
 </body>
 </html>
